@@ -1,0 +1,73 @@
+.labelfortext{
+    font-family: 'Times New Roman', Times, serif!important;
+    font-size: 20px !important;
+    font-weight: 700 !important ;
+    color:red
+}
+.textinskill{
+    justify-content: center;
+    margin-bottom: 4px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+     color: black;
+
+}
+
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%); 
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0); 
+      opacity: 1; 
+    }
+  }
+.textinskilldiv{
+    animation: slideInFromTop 1.5s forwards; 
+}
+.secondrow{
+   justify-content: center;
+   margin-bottom: 4px;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0; 
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1; 
+    }
+  }
+
+.boxincontent {
+    transition: transform 0.9s ease, box-shadow 0.3s ease!important;
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.2)!important;
+    animation: slideInFromLeft 1.5s forwards;
+}
+
+.boxincontent:hover {
+    transform: scale(0.8)!important;
+    box-shadow: 0 8px 20px red(0, 0, 0, 0.3)!important;
+}
+
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%); 
+      opacity: 0; 
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1; 
+    }
+  }
+
+.imageanimi{
+    animation: slideInFromRight 1.5s forwards;
+   padding-right: 150px;
+    margin-top: 100px;
+}
+

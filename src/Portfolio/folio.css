@@ -1,0 +1,103 @@
+.textdesign{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contentinphoto{
+    padding-top: 5%;
+}
+
+.sk-button {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%; 
+    font-size: 18px;
+    font-weight: bold;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.sk-button:hover {
+    background-color: #0056b3; 
+}
+.navbarwords{
+    gap:30px;
+    color: red!important;
+}
+.custom-card {
+    border-radius: 15px; 
+    margin: 20px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    background-color:lightblue  
+}
+
+.shadow-lg {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.fade-in {
+    opacity: 0; 
+    animation: fadeIn 3s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.nav-link-custom {
+    color: lavender;
+    background-color:blue;
+    border: solid;
+    border-radius: 15px;    
+    margin: 5px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.offcanvas {
+    background-color: #343a40; /* Dark background for offcanvas */
+    color: white; /* White text color */
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid #495057; /* Slight border for separation */
+}
+
+.offcanvas-body {
+    padding: 20px; /* Adjust padding as needed */
+}
+
+@media screen and (max-width: 320px) {
+   .navbarwords{
+    display:none
+   }
+   .imagepro{
+    width:55vh;
+    height:50vh;
+    margin-left: -5vh;
+   }
+  }
+  .Toggleright{
+    display: flex!important;
+    justify-content: end!important;
+  }
+  .imagepro{
+    margin-top: 10vh;
+  }
+ 

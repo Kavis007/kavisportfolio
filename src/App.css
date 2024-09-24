@@ -1,0 +1,269 @@
+/* h1{
+  color:red;
+  background-color: mediumaquamarine;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 30px;
+  font-weight: 700;
+} 
+.one{
+  padding-right: 200px;
+  padding-top: 10px;
+  
+}
+.two{
+   height: 300px;
+   width: 300px;
+   padding-left: 10px;
+   padding-right: 10px;
+    */
+
+
+  /* } */
+  /* #dropdown-basic-button:hover{
+    color: red;
+    background-color: black;
+  }
+  #dropdown-basic-button:focus{
+    color: green;
+    background-color: yellowgreen;
+  }
+  .three{
+    height: 300px;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+ 
+ 
+   }
+   #dropdown-basic-buttonss:hover{
+    color: red;
+    background-color: black;
+  }
+  #dropdown-basic-buttonss:focus{
+    color: green;
+    background-color: yellowgreen;
+  }
+
+ .a1{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+  }
+
+  .a1:focus{
+    outline: 3px solid lightblue;
+  }
+
+  .a1::placeholder{
+    color: red;
+  }
+
+  .a2{
+    margin-top: 200px;
+  }
+
+  .a3{
+    line-height: 3;
+  }
+
+
+.p1{
+  color: blue;
+  background-color: white;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 230px;
+  
+}
+.p2{
+  color:black;
+  background-color: white;
+  font-size: 25px;
+ 
+  font-weight: 500;
+ 
+  text-shadow: 1px 1px 20px rgb(236, 191, 191)}
+  
+
+
+ .i1{
+  width: 100%;
+   border-radius: 0.2px;
+   border:1px solid grey;
+  border-radius: 5px;
+}
+.i1::placeholder{
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 5px;
+ 
+}
+.i2{
+  width: 100%;
+  border-color:lavenderblush;
+  border-radius: 5px;
+
+}
+.i2::placeholder{
+  font-size: 18px;
+  padding: 20px;
+}
+.b11{
+  width: 100%;
+  color:white;
+  font-size:100px;
+}
+  
+
+.l1{
+  padding-left: 145px;
+  font-size: 20px;
+}
+.b2{
+  width: 100%;
+  color: white;
+  background-color: green;
+}
+.c1{
+  margin-top: 200px;
+ 
+}
+
+
+.z1{
+  background-color: pink;
+}
+
+.z2{
+  background-color: aqua;
+}
+
+.z3{
+  background-color: yellowgreen;
+}
+
+.z4{
+  background-color: orange;
+}
+
+.z5{
+  font-size: 50px;
+  font-weight: 700;
+  color: red;
+  background-color: pink;
+  margin-left: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+  .z5{
+    font-size: 20px;
+    font-weight: 600;
+    color: green;
+    background-color: greenyellow;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .z5{
+    font-size: 60px;
+    font-weight: 800;
+    color: blue;
+    background-color: lightblue;
+    margin-left: 150px;
+  }
+}   */
+
+ /* .b1{
+ 
+  margin-top: 40px;
+  /* margin-left: 40px; */
+/* 
+.b2{
+  margin-top: 40px;
+  margin-right: 20px ;
+ 
+}
+.bb1{
+  margin-top: 25px;
+}  */
+
+
+.buttons{
+  display: grid;
+  text-align: justify;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px
+  ;
+  
+}
+.b1{
+  width: 100px;
+  height: 100px;
+  color: greenyellow;
+  background-color: black;
+  font-size: 30px;
+  font-weight: 400;
+  margin-right: 3px;
+  border: none;
+  border-radius: 10px;
+}
+.b1:hover{
+  color: black;
+  background-color: lightgray;
+}
+.b1:focus{
+  color: green;
+  background-color: red;
+}
+.button1{
+  margin-top: 3px;
+}
+.inp1{
+  width: 100%;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  color:khaki;
+  background-color: black;
+  text-align: right;
+  font-size: 30px;
+  font-weight: 400;
+}
+.butt{
+  width:100px;
+  grid-column: span 4;
+}
+
+.b2{
+/* padding-left: 70px;
+padding-right: 115px; */
+/* display: flex;
+align-items: center;
+justify-content: center; */
+width: 100%;
+color: navy;
+background-color: cornsilk;
+font-size: 30px;
+font-weight: 400;
+border: none;
+border-radius: 10px;
+}
+.b2:hover{
+  color: white;
+  background-color:lavender;
+}
+.b2:focus{
+  color: green;
+  background-color: red;
+}
+.button2{
+  /* margin-top: 3px; */
+
+}
